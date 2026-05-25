@@ -4,12 +4,12 @@
 
 date_default_timezone_set('Asia/Tbilisi');
 
-define('DB_HOST', '188.169.47.66');
-define('DB_NAME', 'nutroapp');
-define('DB_USER', 'root');       // Change to your MySQL user
-define('DB_PASS', 'a213546b');           // Change to your MySQL password
+define('DB_HOST', '');
+define('DB_NAME', '');
+define('DB_USER', '');       // Change to your MySQL user
+define('DB_PASS', '');           // Change to your MySQL password
 define('DB_CHARSET', 'utf8mb4');
-define('ANTHROPIC_API_KEY', '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');
+define('ANTHROPIC_API_KEY', 'AAAA');
 
 
 function getDB() {
@@ -33,10 +33,10 @@ function getDB() {
 
 // ── Email (SMTP) Configuration ─────────────────────────────────────────────
 // Change these to your hosting SMTP settings
-define('SMTP_HOST',     'mail.nutroapp.ge');   // Your hosting mail server
+define('SMTP_HOST',     '');   // Your hosting mail server
 define('SMTP_PORT',     587);                   // 587 (TLS) or 465 (SSL) or 25
-define('SMTP_USER',     'no-reply@nutroapp.ge');
-define('SMTP_PASS',     'Tedotedo2022!');
-define('SMTP_FROM',     'no-reply@nutroapp.ge');
-define('SMTP_FROM_NAME','NutroApp');
+define('SMTP_USER',     '');
+define('SMTP_PASS',     '');
+define('SMTP_FROM',     '');
+define('SMTP_FROM_NAME','');
 define('SMTP_SECURE',   'tls');                 // 'tls', 'ssl', or '' for plain
