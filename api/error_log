@@ -1,0 +1,13 @@
+[08-May-2026 21:22:37 Asia/Tbilisi] PHP Warning:  preg_replace_callback(): Compilation failed: missing terminating ] for character class at offset 17 in /home/mwgbsngr/public_html/includes/claude.php on line 57
+[08-May-2026 21:22:37 Asia/Tbilisi] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 60
+[08-May-2026 21:22:37 Asia/Tbilisi] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 67
+[08-May-2026 21:24:32 Asia/Tbilisi] PHP Warning:  preg_replace_callback(): Compilation failed: missing terminating ] for character class at offset 17 in /home/mwgbsngr/public_html/includes/claude.php on line 57
+[08-May-2026 21:24:32 Asia/Tbilisi] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 60
+[08-May-2026 21:24:32 Asia/Tbilisi] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 67
+[08-May-2026 21:27:35 Asia/Tbilisi] PHP Warning:  Undefined array key "ingredients" in /home/mwgbsngr/public_html/includes/claude.php on line 357
+[08-May-2026 21:30:21 Asia/Tbilisi] PHP Warning:  preg_replace_callback(): Compilation failed: missing terminating ] for character class at offset 17 in /home/mwgbsngr/public_html/includes/claude.php on line 57
+[08-May-2026 21:30:21 Asia/Tbilisi] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 60
+[08-May-2026 21:30:21 Asia/Tbilisi] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 67
+[20-May-2026 13:25:13 Asia/Tbilisi] PHP Warning:  preg_replace_callback(): Compilation failed: missing terminating ] for character class at offset 17 in /home/mwgbsngr/public_html/includes/claude.php on line 57
+[20-May-2026 13:25:13 Asia/Tbilisi] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 60
+[20-May-2026 13:25:13 Asia/Tbilisi] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/mwgbsngr/public_html/includes/claude.php on line 67

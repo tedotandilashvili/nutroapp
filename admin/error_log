@@ -1,0 +1,5 @@
+[19-May-2026 12:24:17 Asia/Tbilisi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wolt_venue_slug' in 'where clause' in /home/mwgbsngr/public_html/admin/wolt_scraper.php:53
+Stack trace:
+#0 /home/mwgbsngr/public_html/admin/wolt_scraper.php(53): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/mwgbsngr/public_html/admin/wolt_scraper.php on line 53

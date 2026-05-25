@@ -1,0 +1,2 @@
+# Protect admin — no directory listing
+Options -Indexes
