@@ -2,19 +2,32 @@ name: iOS Build
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: macos-latest
-
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Xcode
-        run: sudo xcode-select -s /Applications/Xcode.app
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-        - name: Build iOS
-  run: |
-    xcodebuild -list
-    xcodebuild -workspace NutroApp.xcworkspace -scheme NutroApp -configuration Release
+      - name: Install dependencies
+        run: npm install
+
+      - name: Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Build iOS on EAS
+        run: eas build --platform ios --profile production --non-interactive --no-wait
+
+      - name: Done
+        run: echo "Build started on EAS! Check https://expo.dev to download IPA when ready."
